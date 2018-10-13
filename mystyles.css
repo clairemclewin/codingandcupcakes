@@ -1,5 +1,5 @@
 html, body {
-	background: #f5c9c9;
+	background: #a79797e1;
 	font-family: 'Lato', sans-serif;
 	color: #6C6B6B;
 	margin: 0px;
@@ -24,7 +24,7 @@ p {
 	overflow: auto;
 	display: block;
 	clear:both;
-	background: #F2D02B;
+	background: rgba(48, 172, 130, 0.842);
 }
 
 .inner{
@@ -69,7 +69,7 @@ ul.menu li  a {
 
 ul.menu li  a.selected {
 	background: #E0C128;
-	border-bottom: solid 5px #FF005B;
+	border-bottom: solid 5px rgb(11, 26, 230);
 }
 
 
@@ -84,6 +84,10 @@ ul.menu li  a.selected {
 
 .content .inner {
 	background: #fff;
+}
+
+.shop {
+	background: rgb(255, 255, 255);
 }
 
 .video {
@@ -128,7 +132,7 @@ ul.inline li.cupcake h4.tiny {
 }
 
 .footer .inner{
-	background: #FF005B;
+	background: rgba(24, 119, 48, 0.733);
 }
 
 .footer ul {
